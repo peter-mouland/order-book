@@ -1,0 +1,12 @@
+
+#
+# 'major version' is used to avoid issues with pre-releases in browsers like Chrome and Firefox + capture safari updates.
+# 4 major versions is used to provide a reasonable balance between compatibility and modern features.
+# 'not dead' must come last in the browserslist query to ensure ie is ignored.
+#
+# https://browsersl.ist/#q=%3E+0.5%25%2C+last+4+major+versions%2C+Firefox+ESR%2C+not+dead
+#
+
+> 0.5%
+last 4 major versions
+not dead

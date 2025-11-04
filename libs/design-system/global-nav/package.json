@@ -1,0 +1,17 @@
+{
+    "name": "@tpicap/design-system.global-nav",
+    "private": true,
+    "version": "1.0.0",
+    "type": "module",
+    "main": "src/global-nav.tsx",
+    "types": "src/global-nav.tsx",
+    "scripts": {
+        "dev": "vite",
+        "test": "vitest",
+        "build": "tsc -b && vite build"
+    },
+    "dependencies": {
+        "react": "^19.2.0",
+        "react-dom": "^19.2.0"
+    }
+}
